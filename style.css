@@ -1,0 +1,124 @@
+.container {
+    border: solid black 1px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    /* height: 100vh; */
+    align-items: center;
+    align-content: space-evenly;
+    /* padding: 500px; */
+    /* gap: 500px; */
+    flex-wrap: wrap;
+}
+
+.child {
+
+    border: solid orange 3px;
+    /* margin: 1vh */
+    order: 4;
+    /* flex-grow: 1; */
+    align-self: flex-end;
+}
+
+.child2 {
+
+    border: solid red 2px;
+    order: 3;
+    flex-grow: 1; 
+    align-self: flex-end;
+}
+
+.child3 {
+
+    border: solid blue 2px;
+    order: 1;    
+    align-self: flex-start;
+}
+
+.child4 {
+
+    border: solid blue 2px;
+    order: 2;    
+    align-self: flex-start; 
+}
+
+img {
+    height: 15vh;
+    width: 15vw;
+}
+* {
+    padding: 10px;;
+    margin: 0px;;
+    box-sizing:content-box;
+    p {
+        text-align: center;
+        color: rgb(44, 206, 30);
+      }
+    }
+    body {
+       background-color: rgb(47, 47, 18); 
+    }
+    
+    header {
+        background-color: rgb(221, 26, 153);
+        border-bottom: 3px solid rgb(170, 27, 117);
+        margin-bottom: 10px;
+    }
+    footer {
+    background-color: rgb(21, 97, 130);
+    border-top: 10px solid rgb(79, 27, 169);
+    text-align: center;
+    padding: 10px;
+    }
+    article {
+    background-color: rgb(42, 49, 104);
+    margin: 0 auto 100px;
+    border: 100px solid rgb(81, 5, 57);
+    padding: 50px ;
+    width: 50%;
+    border-radius: 10px;
+    
+    }
+    
+    nav {
+    list-style-type: circle;
+    
+    }
+    .nav-bar, .nav-link {
+        display: inline;
+    }
+    #brand-title {
+        margin-right: 50px;
+    }
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    a:hover{
+        color:rgb(79, 235, 51);
+    }
+    main{
+        text-align: center;
+    }
+    form{
+        border: 2px dotted black;
+        width: 30%;
+        margin: 0 auto 20px;
+        border-radius: 20px;
+        padding:40px;
+        
+    }
+    .form-label 
+    {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    input textarea {
+        padding: 5px;
+        border-radius: 5px;
+    }
+    #profile-picture {
+        border-radius: 100%;
+        border:2px solid black
+    }
